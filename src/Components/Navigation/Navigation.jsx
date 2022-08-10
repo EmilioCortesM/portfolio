@@ -5,12 +5,14 @@ import Navbar from "react-bootstrap/Navbar";
 import "./Navigation.css";
 import { FaGithub, FaLinkedin, FaKaggle } from "react-icons/fa";
 import { animate } from "motion";
+import { useEffect } from "react";
 
 setTimeout(() => {
   animate(".navlink", { transform: "rotate(360deg)" }, { duration: 1.5 });
 }, 500);
 
 function Navigation() {
+  useEffect(() => {});
   return (
     <Navbar className="main_navbar" variant="light">
       <Container>

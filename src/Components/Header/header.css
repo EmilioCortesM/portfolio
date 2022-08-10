@@ -1,4 +1,12 @@
 .question {
   padding-left: 20px;
-  width: 200px;
+  width: 100px;
+}
+.intro_head {
+  
+  width: 400px;
+}
+
+.description {
+  font-family: Arial, Helvetica, sans-serif;
 }
